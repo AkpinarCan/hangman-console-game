@@ -1,7 +1,22 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 *.py[cod]
 *$py.class
+
+# Veritabanı dosyaları
+*.sqlite3
+
+# Proje spesifik dosyalar
+config.ini
+
+# Python üreteci tarafından oluşturulan dosyalar
+generator-output/
+
+# Herhangi bir çıktı dizini
+output/
 
 # C extensions
 *.so
